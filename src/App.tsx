@@ -1,8 +1,9 @@
 import React from 'react';
-import Header from './components/header/Header';
+import Animation from './components/animation/container/Container';
 import { Helmet } from 'react-helmet';
 
 import * as S from './App.styles';
+import Menu from './components/menu/Menu';
 
 function App() {
   return (
@@ -12,7 +13,12 @@ function App() {
         <meta name="description" content="" />
         <meta name="keywords" content="" />
       </Helmet>
-      <Header />
+      <S.AnimationWrapper>
+        <Animation />
+      </S.AnimationWrapper>
+      <S.AppWrapper>
+        <Menu />
+      </S.AppWrapper>
     </S.App>
   );
 }
