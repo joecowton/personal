@@ -12,19 +12,19 @@ const colors = {
 
 const gridValues = {
   sm: {
-    gutter: 1, // 16px
-    padding: 1,
+    gutter: 0.5, // 16px
+    padding: 0.5,
     maxWidth: '100%'
   },
   md: {
-    gutter: 1.5,
-    padding: 2,
+    gutter: 1,
+    padding: 1,
     maxWidth: '100%'
   },
   lg: {
-    gutter: 2, // 24px
-    padding: 4,
-    maxWidth: '100%' // 1248px
+    gutter: 1.5, // 24px
+    padding: 1.5,
+    maxWidth: '78rem' // 1248px
   }
 };
 
